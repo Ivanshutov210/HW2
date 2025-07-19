@@ -6,10 +6,16 @@ public class Main {
         System.out.println("Задача 1");
         int age = 24;
         if (age >= 18) {
-            System.out.println("Если возраст человека равен"+ age +"он совершеннолетний");
+            System.out.println("Если возраст человека равен"+ age +",он совершеннолетний");
         } else {
-            System.out.println("Если возраст человека равен"+ age + "он не достиг совершеннолетия, нужно немного подождать");
+            System.out.println("Если возраст человека равен"+ age + ",он не достиг совершеннолетия, нужно немного подождать");
         }
-
+        System.out.println("Задача 2");
+        int temperature = 3;
+        if (temperature <=5) {
+            System.out.println("На улице"+ temperature + ",градусов,нужно надеть шапку");
+        } else {
+            System.out.println("На улице"+ temperature + ",градусов,можно идти без шапки");
+        }
         }
 }
